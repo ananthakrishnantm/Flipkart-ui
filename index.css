@@ -1,6 +1,7 @@
 body{
 
     margin: auto;
+    background-color: rgb(231, 231, 231);
 }
 
 header{
@@ -58,6 +59,7 @@ header{
     
 }
 
+
 .loginbtn{
     color: #2874f0;
     text-align: center;
@@ -83,7 +85,67 @@ p{
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
+/* second bar starts here*/
+.bar{
+    display: flex;
+    flex-direction: column;   
+   justify-content: space-evenly;
+   align-content: center;
     
+}
+
+.bartext{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.barimage{
+
+    width: 80%;
+   
+
+}
+
+
+
+.mainbar{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    box-shadow: 1px 1px 3px;
+    display: flex;
+    justify-content: center;
+    flex-basis: 0px;
+    gap: 50px;
+    flex: 1px;
+    
+
+}
+    
+/* Main Section Two */
+
+.mainsectiontwo{
+
+    display: flex;
+    
+    justify-content: center;
+    padding: 80px;
+    background-color: #2874f0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    
+
+
+
+}
+
+.bannerimageone{
+    width: 500px;
+
+   
+}
     
     
     
