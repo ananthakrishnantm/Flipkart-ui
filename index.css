@@ -5,40 +5,42 @@ body{
 }
 
 header{
-    height:50px;
-    color: yellow;
+    width:100%;
+    height: 60px;
+    padding-top: 10px;
+    display: flex;
     background-color: #2874f0;
-    padding: 25px;
-    margin: 0px;
-  
+    justify-content: center;
 }
 
-.logo{
 
-    width:110px;
+.logo{
     padding: 0px;
     margin: 0px;
+    width:100%;
+    height:40px
+   
     
 
 }
 
 .image{
+    padding-top: 12px;
+    margin-right: 0px;
     
-    padding: 0px;
-    margin-left: 550px;
-    
-    float: left; /*give float to first div*/
+    /*give float to first div*/
     
 }
 
 .searchbar{
     background-color: white;
-    width: 800px;
-    height: 50px;
+    width: 25%;
+    height: 30px;
+    margin-top:12px;
     border-radius: 5px;
     border: 0px;
-    margin-right:0px ;
-    float: left;
+    margin-right:0px;
+   
 }
 .search{
     margin:0px;
@@ -47,13 +49,20 @@ header{
 
 .btn{
     padding-left: 50px;
+    width: 10%;
+    height: 10px;
 
 }
-
+.loginbtn{
+    margin-top: 10px;
+    padding: 5px;
+}
 .btn , .loginbtn{
-    font-size: 35px;
+    font-size: 20px;
     float: left; 
-    border-radius: 5px;
+    border-radius: 2px;
+    border: 0px;
+    
     
     
     
@@ -73,6 +82,10 @@ header{
         float: left;
         padding-left: 50px;
         color: white;
+       
+        font-size: 15px;
+        
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
    
 }
 
@@ -80,10 +93,7 @@ header{
 p{      
     
     
-    margin-top: 0px;
-    font-size: 200%;
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
 }
 /* second bar starts here*/
 .bar{
@@ -129,7 +139,7 @@ p{
 
     display: flex;
     
-    justify-content: center;
+    justify-content: space-between;
     padding: 80px;
     background-color: #2874f0;
     margin-left: 100px;
@@ -137,6 +147,11 @@ p{
     margin-top: 20px;
     
 
+}
+
+.bannerbtn{
+    display: flex;
+    justify-items: center;
 
 
 }
